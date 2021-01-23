@@ -29,7 +29,7 @@ import (
 // 	var v2 float64 = 0.123456
 // 	var v3 string = "bla bla bla"
 // 	var v4 bool = true
-// 	var v5 []byte = []byte("hadrianl")
+// 	var v5 []byte = []byte("ipoval")
 // 	var v6 int = 20201130
 
 // 	oldBytes := makeMsgBytesOld(v3, v1, v2, v3, v4, v5, v6)
@@ -48,7 +48,7 @@ func BenchmarkMakeMsg(b *testing.B) {
 	var v2 float64 = 0.123456
 	var v3 string = "bla bla bla"
 	var v4 bool = true
-	var v5 []byte = []byte("hadrianl")
+	var v5 []byte = []byte("ipoval")
 	var v6 int = 20201130
 	// var updateAccountValueMsgBuf = NewMsgBuffer(nil)
 	for i := 0; i < b.N; i++ {
