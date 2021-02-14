@@ -218,7 +218,7 @@ func (w Wrapper) UpdatePortfolio(contract *Contract, position float64, marketPri
 }
 
 func (w Wrapper) Position(account string, contract *Contract, position float64, avgCost float64) {
-	log.Info("<UpdatePortfolio>",
+	log.Info("<PortfolioPosition>",
 		zap.String("account", account),
 		zap.Any("contract", contract),
 		zap.Float64("position", position),
